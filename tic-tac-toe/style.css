@@ -1,0 +1,17 @@
+.board {
+    width:150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: 50px, 50px;
+    grid-auto-flow: row;
+    border:1px solid black;
+}
+
+.wsquare {
+    background-color: lightgray;
+}
+
+.bsquare {
+    background-color: white;
+}
